@@ -55,5 +55,5 @@ document.querySelector("form").onsubmit = function (event) {
   }
 
   var ID = "S" + fname.substring(0, 3) + lname.substring(0, 2) + yrvalue;
-  document.querySelector("#msg").innerHTML = ID; // Set the ID value to the "msg" <p> tag
+  document.querySelector("#msg").innerHTML = ID.toLocaleUpperCase(); // Set the ID value to the "msg" <p> tag
 };
