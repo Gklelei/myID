@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form input {
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  color: rgb(122, 120, 120);
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+form label {
+  margin-top: 10px;
+}
+#sem option {
+  color: black;
+}
+#sem {
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(122, 120, 120);
+  font-size: 16px;
+}
